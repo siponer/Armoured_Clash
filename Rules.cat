@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="e73b-0a05-5608-a2db" name="Rules" gameSystemId="sys-4122-429d-f7fe-52dd" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedRules>
+    <rule name="Fiery Demise (x) 1.02 " id="9b70-e337-03c7-6ded" hidden="false" publicationId="18e3-7a99-b38b-66f2">
+      <description>If a model in this unit is Destroyed before the Escape Step of its Sortie, the opposing General rolls a single Attack Die before  removing it from play, and consults the table below.
+
+- Blank: SMOKE TRAIL. The model is removed from play with no additional effect. 
+- Miss: SMOKE TRAIL.
+- Glancing Strike: SMOKE TRAIL.
+- Strike: RAIN OF DEBRIS. Each other unit within 4” of the Destroyed model, friend or foe, must make a Suppression Test. The Destroyed model is then removed from play.
+- Heroic Strike: CALAMITOUS LANDING. Make a Ranged Attack with X Attack Dice against each unit (friend or foe) within 4” of the Destroyed model, with a Neutral Combat Rating. This unit’s General chooses the order in which these attacks are made.
+The Destroyed model is then removed from play.</description>
+    </rule>
+    <rule name="Tail Gunner (x) 1.02 " id="4190-9dcd-d38e-e1b3" hidden="false" publicationId="18e3-7a99-b38b-66f2">
+      <description>If this unit is the target of a Ranged Attack from an enemy Aerial unit during its Reaction Step then, once the attack has been resolved, this unit can immediately make a Weakened Attack Roll against that enemy unit using X Attack Dice.</description>
+    </rule>
+    <rule name="Flying 1.02 " id="1132-2fc9-6e5e-b59c" hidden="false" publicationId="18e3-7a99-b38b-66f2">
+      <description>Models from this unit never cause the Line of Sight of a model in another unit to be Obscured. In addition, when models from this unit move, they treat all Terrain as Open Terrain, and can move freely through enemy models as long as they end their move at least 1” away from them.</description>
+      <modifiers>
+        <modifier type="set" value="Flying" field="name"/>
+      </modifiers>
+    </rule>
+    <rule name="Chain of Command (x)" id="f0fd-4a6b-8c1f-a83c" hidden="false">
+      <description>A unit gains a +1 to its Discipline if its Offifficer is within X” of one or more other friendly units with this Special Rule, and/or Transport units on which other friendly units with this Special Rule are Embarked.</description>
+    </rule>
+    <rule name="Command Signals" id="1f7c-744f-09d9-36c3" hidden="false">
+      <description>While this unit is Embarked on a Transport unit, that Transport unit counts as having the Commander trait.</description>
+    </rule>
+    <rule name="Stoic Defence" id="9786-f309-089a-8459" hidden="false">
+      <description>When this unit is the target of a Charge manoeuvre, it always has the Defensive Advantage in the subsequent Close Quarters Combat, even if the attacker did not make an Impeded Charge.</description>
+    </rule>
+    <rule name="Irregular" id="1a0d-b1c7-d3a2-b597" hidden="false">
+      <description>This unit fights in Open Formation, regardless of its Unit Type.</description>
+    </rule>
+    <rule name="Pioneers" id="bcfc-cd99-99cc-ac5b" hidden="false">
+      <description>When this unit moves, it treats Diffifficult Terrain and Dense Terrain as Open Terrain. In addition, when this unit makes a Ranged Attack, ignore any Dense Terrain within 3” of its Offifficer when  confirming Visibility.</description>
+    </rule>
+    <rule name="Shrouded" id="80d3-d3d1-5182-7a43" hidden="false">
+      <description>When checking Visibility for an enemy unit’s Ranged Attack, Line of Sight to models in this unit always counts as Obscured.</description>
+    </rule>
+    <rule name="Stalkers" id="74da-98c5-00d7-87fa" hidden="false">
+      <description>If this unit does not make an Attack during its Activation, it automatically gains the On Lookout status at the end of the Activation.</description>
+    </rule>
+    <rule name="Vanguard (X)" id="6ed6-c6c5-519a-6879" hidden="false">
+      <description>After both Forces have been Deployed, but before the first Round begins, this unit can make a free Advance manoeuvre, with a Movement Limit of X” (instead of its Speed).</description>
+    </rule>
+    <rule name="Spotters" id="3f3c-c8b5-7c63-527e" hidden="false">
+      <description>While this unit has the On Lookout status, it is a Spotting unit.
+When a unit makes a Ranged Attack with the Indirect weapon quality, its General can nominate a Spotting unit anywhere on the battlefield that is not Suppressed, and whose Officer has Clear or Obscured Line of Sight to at least half of the models in the target unit. If it does so, the attack is Improved regardless of any Combat Rating Bonuses or Penalties, even if the attacking unit  cannot confirm Visibility. The Spotting unit then loses its On Lookout status.</description>
+    </rule>
+    <rule name="Occupy" id="a1f8-5d8a-59d5-1d71" hidden="false">
+      <description>This unit can Garrison a Wrecked Behemoth unit as though it were a Defensible Building. While the unit is Garrisoning the Behemoth, opposing units can attack it as though it were a Defensible  building, but if they win a Close Quarters Combat they cannot Garrison the Behemoth unless they also have this Special Rule.</description>
+    </rule>
+    <rule name="Storming Party" id="fc02-3ba6-9f7e-7c8a" hidden="false">
+      <description>This unit can make a Garrison Action in its Movement Step, as though it were a Manoeuvre, instead of in its Attack Step.
+Additionally, when this unit attempts to Storm a Building, the target unit does not benefit from Defensive Advantage.</description>
+    </rule>
+    <rule name="Cumbersome" id="ec86-6faf-aaec-246d" hidden="false">
+      <description>If this unit makes a Double Time manoeuvre, it gains the Reloading status. While this unit has the Reloading status, it cannot make Ranged Attacks.</description>
+    </rule>
+    <rule name="All-Out Attack (x)" id="71e9-1759-fb9b-a065" hidden="false">
+      <description>In this unit’s Attack Step, it can make an All-Out Attack
+instead of attacking normally. If it does, it makes up to
+X Attacks, each one using a different row on the unit’s
+Armaments Grid. Any Close Quarters Attacks must be
+resolved before any Ranged Attacks.
+A unit cannot make an All-Out Attack if it failed a Rally
+Test at the start of its Activation, or if it makes a Special
+Action instead of making an attack.
+If the unit has the Reloading status at the start of an All-
+Out Attack, the status is lost at the end of the Attack
+Step, as though the unit had made a Re-Arm action. This
+cannot be used to remove a Reloading status that was
+gained during the step.</description>
+    </rule>
+    <rule name="Ammo Supply" id="4146-de6f-40a8-87b4" hidden="false">
+      <description>Any units with the X trait within 3” of this unit gain an additional Combat Rating Bonus to Ranged Attacks.</description>
+    </rule>
+    <rule name="Assault Ramp" id="a60c-0806-37be-b531" hidden="false">
+      <description>In this unit’s Attack Step, it can make a Special Action to
+allow a unit Embarked upon it to immediately make a free
+Disembark manoeuvre.</description>
+    </rule>
+    <rule name="Automata" id="ddfb-0c4d-0229-9800" hidden="false">
+      <description>This unit always passes any Discipline Test it is called
+upon to make without needing to draw a card. However,
+Commands cannot be issued to this unit, and it cannot
+control Strategic Objectives, though it can contest them.</description>
+    </rule>
+    <rule name="Bail Out" id="1762-581b-668d-5776" hidden="false">
+      <description>If any models in this unit are Destroyed while it is
+Occupied, its General can choose to make an immediate
+Disembark manoeuvre with the Embarked unit. This is
+resolved before models in the Embarked unit would be
+Destroyed as the result of reduced Transport Capacity.
+After Disembarking, the unit automatically gains the
+Suppressed status. If the Embarked unit is already
+Suppressed, it cannot Disembark.</description>
+    </rule>
+    <rule name="Resilient (Front)" id="4fd5-5d2f-97ee-3042" hidden="false">
+      <description>Models in this unit count their Defence as one point
+higher when targeted by an attack, as long as the attacking
+unit’s Offifficer is within its Front Arc.
+If this unit fights in Open Formation, it only benefits
+from this Special Rule if the attacking unit’s Officer
+is within the Front Arc of at least half of the models in
+the unit.
+This unit does not benefit from this Defence bonus if it is
+Garrisoning a Defensible Building.</description>
+    </rule>
+    <rule name="Capacity (x)" id="a300-25cf-7cb8-5060" hidden="false">
+      <description>This is a Transport unit (see page 46 of the Armoured Clash Rulebook). Each model in this unit contributes X to the unit’s Transport Capacity.</description>
+    </rule>
+    <rule name="Sponsons (x)" id="7116-3156-8ef8-12f5" hidden="false">
+      <description>When an enemy unit ends a Charge manoeuvre in contact
+with this unit, make a Weakened Attack Roll against the
+charging unit, using X Attack Dice.
+This attack cannot cause the enemy unit to take a
+Suppression Test. In addition, models that are Destroyed
+by this attack are not counted when determining who wins
+the Close Quarters Combat.</description>
+    </rule>
+    <rule name="Large" id="cf34-5837-9484-717f" hidden="false">
+      <description>When this unit moves, it treats Diffifficult Terrain and Dense
+Terrain as Open Terrain, and treats Blocking Terrain
+as Dense Terrain as long as its Size is at least two points
+higher than the Terrain’s Size.
+When checking Visibility for another unit’s Ranged
+Attack, Line of Sight is Blocked if it passes through a
+model in this unit.
+When the unit is Destroyed, it is not removed from play.
+Instead, it gains the Wrecked status.
+If this unit is deployed from Reserve, it cannot have a
+Flank Attack Special Command issued to it.</description>
+    </rule>
+    <rule name="Ponderous" id="f9e8-5782-71b6-5ccb" hidden="false">
+      <description>When this unit moves, its models must follow the rules
+for Ponderous Movement on page 16 of the Armoured
+Clash Rulebook.</description>
+    </rule>
+    <rule name="Slow" id="c783-e70a-8326-432d" hidden="false">
+      <description>A unit with this Special Rule cannot make a Double Time
+manoeuvre, and when it makes a Charge manoeuvre, it can
+only move a number of inches up to its Speed.</description>
+    </rule>
+    <rule name="Iron Resolve" id="b768-1e6d-99c3-0bd0" hidden="false">
+      <description>When playing a Command &amp; Conquest Card to Issue a
+Command to this unit, treat the card’s Value as 2 points
+higher, to a maximum of 12.</description>
+    </rule>
+    <rule name="Static" id="a05c-c78d-ea31-958c" hidden="false">
+      <description>This unit cannot make Charge manoeuvres. In addition, if this unit loses a Close Quarters Combat, it is immediately  annihilated.</description>
+    </rule>
+    <rule name="Spectacular Demise (x)" id="952f-ac73-ffae-c881" hidden="false">
+      <description>When the last model in this unit is Destroyed, the opposing General rolls a single Attack Die and consults the table below. 
+
+
+- Blank: Halted, The model is Destroyed as normal.
+- Glancingg Strike: Lurch, The model moves 3” in the direction indicated by the chevron on the die, stopping 1” away from any other models. The model is then Destroyed.
+- Miss: Shockwave. Each unit within 6” of the model, friend or foe, takes a Suppression Test. The model is then Destroyed.
+- Strike: DETONATION
+Make a Ranged Attack with X Attack
+Dice against each unit within 4” of the
+model, friend or foe, with a Neutral
+Combat Rating. This unit’s General
+chooses the order in which these
+attacks are made.
+The model is then Destroyed.
+- Heroic Strike; CATACLYSMIC
+DETONATION
+Make a Ranged Attack with X Attack
+Dice against each unit within 8” of the
+model, friend or foe, with a Neutral
+Combat Rating. This unit’s General
+chooses the order in which these
+attacks are made.
+The model is then Destroyed, and is
+removed from play even if it would
+otherwise normally gain the Wrecked
+status.
+
+
+ </description>
+    </rule>
+    <rule name="Emplacement" id="ed4c-01f1-1e7d-d182" hidden="false">
+      <description>Any model in this unit that is in contact with an Obstacle
+counts its Defence as one point higher when targeted by
+a Ranged Attack, as long as the attacking unit’s Line of
+Sight crosses the Obstacle.</description>
+    </rule>
+    <rule name="Overrun" id="fa0a-a4e0-f7fd-7edb" hidden="false">
+      <description>If this unit wins a Close Quarters Combat during its own
+Activation, and the target unit has not been Annihilated,
+its General can discard a Command &amp; Conquest Card
+from their hand to declare that this unit will Overrun the
+enemy.
+If they do so, this unit immediately makes a Charge
+manoeuvre, ending in contact with the target unit.
+This unit then makes a Close Quarters Attack, with an
+additional Combat Rating Penalty. The target unit can
+Retaliate as normal, if it has a Melee attack.
+A unit can only Overrun the enemy once per Activation.</description>
+    </rule>
+    <rule name="Bulky" id="860a-14bf-5b69-b644" hidden="false">
+      <description>This unit cannot make Take Cover Special Actions.
+In addition, if this is an Infantry unit, each model in the
+unit counts as two models for the purposes of Garrisoning
+a Defensible Building or Embarking on a Transport.</description>
+    </rule>
+    <rule name="Hit &amp; Run (x)" id="87ce-1dfe-1c57-23ad" hidden="false">
+      <description>During this unit’s Activation, immediately after resolving a
+Close Quarters or Ranged Attack, it can make a free Advance
+manoeuvre, with a Movement Limit of X” (instead of its Speed).
+A unit cannot benefit from this Special Rule if it
+is Suppressed, Embarked on a Transport unit, or
+Garrisoning a Defensible Building.</description>
+    </rule>
+    <rule name="Soar (x)" id="7d40-8d86-fba8-f129" hidden="false">
+      <description>At the start of this unit’s Activation, its General can declare
+that it will Soar. If it does so, it is subject to the following
+effects until the end of its Activation:
+The unit’s Speed becomes X”, its Target Category becomes
+Aerial, and its Size becomes 10. While the unit is moving,
+it treats all terrain and enemy units as Open Terrain, but
+cannot end its move in Impassable or Blocking Terrain.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

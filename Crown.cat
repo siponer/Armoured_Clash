@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="2525-fede-17f2-73c3" name="Crown v1.02a" gameSystemId="sys-4122-429d-f7fe-52dd" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Rifle Command Platoon" typeId="4cb0-515e-e6e0-153a" typeName="Standard Unit" hidden="false" id="2a75-c05f-0be3-59fe">
+      <characteristics>
+        <characteristic name="Target Category" typeId="97b4-9b4a-f640-d670">Light</characteristic>
+        <characteristic name="Size" typeId="947a-7a7e-ab76-162e">1</characteristic>
+        <characteristic name="Models" typeId="b001-8ebf-b7fe-74da">6</characteristic>
+        <characteristic name="VPR" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="Speed" typeId="9e4a-2ba1-f396-74b9">4</characteristic>
+        <characteristic name="Defence" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="Damage Limit" typeId="29a3-02bb-e7f3-0ddb">1</characteristic>
+        <characteristic name="Discipline" typeId="c141-3bcf-41f5-6c24">8</characteristic>
+        <characteristic name="Break Limit" typeId="6428-9828-bb2e-f923">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Royal Engineer Sappers" typeId="4cb0-515e-e6e0-153a" typeName="Standard Unit" hidden="false" id="5b73-7e40-e82e-3f1d">
+      <characteristics>
+        <characteristic name="Target Category" typeId="97b4-9b4a-f640-d670">Light</characteristic>
+        <characteristic name="Size" typeId="947a-7a7e-ab76-162e">1</characteristic>
+        <characteristic name="Models" typeId="b001-8ebf-b7fe-74da">4</characteristic>
+        <characteristic name="VPR" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="Speed" typeId="9e4a-2ba1-f396-74b9">5</characteristic>
+        <characteristic name="Defence" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="Damage Limit" typeId="29a3-02bb-e7f3-0ddb">1</characteristic>
+        <characteristic name="Discipline" typeId="c141-3bcf-41f5-6c24">7</characteristic>
+        <characteristic name="Break Limit" typeId="6428-9828-bb2e-f923">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rifle Platoon" typeId="4cb0-515e-e6e0-153a" typeName="Standard Unit" hidden="false" id="3505-d912-6df8-08e2">
+      <characteristics>
+        <characteristic name="Target Category" typeId="97b4-9b4a-f640-d670">Light</characteristic>
+        <characteristic name="Size" typeId="947a-7a7e-ab76-162e">1</characteristic>
+        <characteristic name="Models" typeId="b001-8ebf-b7fe-74da">6</characteristic>
+        <characteristic name="VPR" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="Speed" typeId="9e4a-2ba1-f396-74b9">4</characteristic>
+        <characteristic name="Defence" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="Damage Limit" typeId="29a3-02bb-e7f3-0ddb">1</characteristic>
+        <characteristic name="Discipline" typeId="c141-3bcf-41f5-6c24">7</characteristic>
+        <characteristic name="Break Limit" typeId="6428-9828-bb2e-f923">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sharp Rifles" typeId="4cb0-515e-e6e0-153a" typeName="Standard Unit" hidden="false" id="1313-77c7-7033-f4dc">
+      <characteristics>
+        <characteristic name="Target Category" typeId="97b4-9b4a-f640-d670">Light</characteristic>
+        <characteristic name="Size" typeId="947a-7a7e-ab76-162e">1</characteristic>
+        <characteristic name="Models" typeId="b001-8ebf-b7fe-74da">4</characteristic>
+        <characteristic name="VPR" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="Speed" typeId="9e4a-2ba1-f396-74b9">5</characteristic>
+        <characteristic name="Defence" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="Damage Limit" typeId="29a3-02bb-e7f3-0ddb">1</characteristic>
+        <characteristic name="Discipline" typeId="c141-3bcf-41f5-6c24">8</characteristic>
+        <characteristic name="Break Limit" typeId="6428-9828-bb2e-f923">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spitfire Rocketeers" typeId="4cb0-515e-e6e0-153a" typeName="Standard Unit" hidden="false" id="354f-5f89-b0fe-abfb">
+      <characteristics>
+        <characteristic name="Target Category" typeId="97b4-9b4a-f640-d670">Light</characteristic>
+        <characteristic name="Size" typeId="947a-7a7e-ab76-162e">1</characteristic>
+        <characteristic name="Models" typeId="b001-8ebf-b7fe-74da">4</characteristic>
+        <characteristic name="VPR" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="Speed" typeId="9e4a-2ba1-f396-74b9">4</characteristic>
+        <characteristic name="Defence" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="Damage Limit" typeId="29a3-02bb-e7f3-0ddb">1</characteristic>
+        <characteristic name="Discipline" typeId="c141-3bcf-41f5-6c24">8</characteristic>
+        <characteristic name="Break Limit" typeId="6428-9828-bb2e-f923">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mordred Heavy Artilllery" typeId="4cb0-515e-e6e0-153a" typeName="Standard Unit" hidden="false" id="e4ce-b47a-67be-2aa1">
+      <characteristics>
+        <characteristic name="Target Category" typeId="97b4-9b4a-f640-d670">Heavy</characteristic>
+        <characteristic name="Size" typeId="947a-7a7e-ab76-162e">2</characteristic>
+        <characteristic name="Models" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="VPR" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="Speed" typeId="9e4a-2ba1-f396-74b9">3</characteristic>
+        <characteristic name="Defence" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="Damage Limit" typeId="29a3-02bb-e7f3-0ddb">1</characteristic>
+        <characteristic name="Discipline" typeId="c141-3bcf-41f5-6c24">6</characteristic>
+        <characteristic name="Break Limit" typeId="6428-9828-bb2e-f923">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Defiance Fighter Squadron" typeId="4cb0-515e-e6e0-153a" typeName="Standard Unit" hidden="false" id="77ce-1a89-86f7-cf55">
+      <characteristics>
+        <characteristic name="Target Category" typeId="97b4-9b4a-f640-d670">Aerial</characteristic>
+        <characteristic name="Size" typeId="947a-7a7e-ab76-162e">8</characteristic>
+        <characteristic name="Models" typeId="b001-8ebf-b7fe-74da"/>
+        <characteristic name="VPR" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="Speed" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
+        <characteristic name="Defence" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="Damage Limit" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="Discipline" typeId="c141-3bcf-41f5-6c24">7</characteristic>
+        <characteristic name="Break Limit" typeId="6428-9828-bb2e-f923">-</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Defiance Fighter" hidden="false" id="58e3-6887-5b17-fc2f">
+      <entryLinks>
+        <entryLink import="true" name="Ranged (Light)" hidden="false" id="dbe6-96f6-11ec-1bd8" type="selectionEntry" targetId="6fae-269f-2190-7ad6" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ed2b-1456-b66f-fe65" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf6c-9c45-932c-79e4" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Ranged (Heavy)" hidden="false" id="c71d-0333-6b80-85cd" type="selectionEntry" targetId="7db5-f29e-e83a-e968" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="457c-3532-918d-96ec" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="492a-fceb-cf95-592f" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Ranged (Aerial)" hidden="false" id="2850-26d1-d3ee-6537" type="selectionEntry" targetId="b2c6-5299-262d-ad2d" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6c19-9e42-9c8b-5eb1" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="235d-7abe-f764-87ed" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Defiance" hidden="false" id="ad2f-1c06-f753-392f" targetId="a7fd-d970-a938-a5ae" primary="false"/>
+        <categoryLink name="Crown" hidden="false" id="42de-21ee-db54-f166" targetId="db11-0ca0-0a9f-d522" primary="true"/>
+        <categoryLink name="Aerial" hidden="false" id="684d-83a7-4cac-9b3e" targetId="936c-6850-2322-464d" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Defiance Fighter Squadron" id="2777-8301-ad41-e752" hidden="false" type="profile" targetId="77ce-1a89-86f7-cf55">
+          <modifiers>
+            <modifier type="set" value="1" field="b001-8ebf-b7fe-74da">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c7cd-c469-c5fe-2f35" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2" field="b001-8ebf-b7fe-74da">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="86c5-3a59-37ad-c67e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="b001-8ebf-b7fe-74da">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c9cc-1d79-9bb0-c9a0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2" field="4c54-804a-8993-7325">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c7cd-c469-c5fe-2f35" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="4c54-804a-8993-7325">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="86c5-3a59-37ad-c67e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="4c54-804a-8993-7325">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c9cc-1d79-9bb0-c9a0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Fiery Demise (x) 1.02 " id="29e5-357a-4eb1-71e0" hidden="false" type="rule" targetId="9b70-e337-03c7-6ded">
+          <modifiers>
+            <modifier type="set" value="Fiery Demise (4)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Flying 1.02 " id="0d1b-36ee-42be-639e" hidden="false" type="rule" targetId="1132-2fc9-6e5e-b59c"/>
+        <infoLink name="Tail Gunner (x) 1.02 " id="5e64-07d7-1815-7897" hidden="false" type="rule" targetId="4190-9dcd-d38e-e1b3">
+          <modifiers>
+            <modifier type="set" value="Tail Gunner (4)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="9c07-ae48-3848-a91a" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="6d80-0b96-5d89-6efd" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Rifle Command Platoon" hidden="false" id="f289-16d9-e603-aeb4">
+      <entryLinks>
+        <entryLink import="true" name="Ranged (Light)" hidden="false" id="db18-7aaa-a51e-2cf0" type="selectionEntry" targetId="6fae-269f-2190-7ad6" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6761-0b87-fcc8-6aa2" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="03a1-c9c0-a445-b65e" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Ranged (Aerial)" hidden="false" id="7975-ead9-7c71-b469" type="selectionEntry" targetId="b2c6-5299-262d-ad2d" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="35cb-9584-861f-bcd4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c563-71f9-a13d-5c52" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Melee" hidden="false" id="2016-a1e2-cdac-295d" type="selectionEntry" targetId="fcc7-77b0-cd60-1863" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b1f-d5fe-fcb7-fc35" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5177-1335-bece-b93c" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Crown" hidden="false" id="43b3-ca6a-cf11-9cdb" targetId="db11-0ca0-0a9f-d522" primary="true"/>
+        <categoryLink name="Light" hidden="false" id="7faa-3881-8ba7-3915" targetId="cbc2-752c-59ff-dd62" primary="false"/>
+        <categoryLink name="Crown Infantry" hidden="false" id="17b7-efa0-90f9-e631" targetId="8ed6-a1d8-1f9f-fdc1" primary="false"/>
+        <categoryLink name="Rifle Platoon" hidden="false" id="2618-440e-5ce2-e6fe" targetId="896e-516a-a766-5897" primary="false"/>
+        <categoryLink name="Commander" hidden="false" id="c7a8-ed50-2023-f272" targetId="da60-9ebe-67f8-ee56" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Rifle Command Platoon" id="d350-d90f-9482-0ba5" hidden="false" type="profile" targetId="2a75-c05f-0be3-59fe">
+          <modifiers>
+            <modifier type="set" value="6" field="b001-8ebf-b7fe-74da">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c7cd-c469-c5fe-2f35" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="12" field="b001-8ebf-b7fe-74da">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="86c5-3a59-37ad-c67e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="18" field="b001-8ebf-b7fe-74da">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c9cc-1d79-9bb0-c9a0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="4c54-804a-8993-7325">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c7cd-c469-c5fe-2f35" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="4" field="4c54-804a-8993-7325">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="86c5-3a59-37ad-c67e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="4c54-804a-8993-7325">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c9cc-1d79-9bb0-c9a0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Chain of Command (x)" id="7c4d-2e37-c16f-e095" hidden="false" type="rule" targetId="f0fd-4a6b-8c1f-a83c">
+          <modifiers>
+            <modifier type="set" value="Chain of Command (6&quot;)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Command Signals" id="bba1-8954-282d-385f" hidden="false" type="rule" targetId="1f7c-744f-09d9-36c3"/>
+        <infoLink name="Stoic Defence" id="5c5d-9117-9462-fa68" hidden="false" type="rule" targetId="9786-f309-089a-8459"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="4434-c174-1beb-e647" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="e770-2312-f032-dd81" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Rifle Platoon" hidden="false" id="9c55-0999-b816-3d39">
+      <categoryLinks>
+        <categoryLink name="Crown" hidden="false" id="cf84-bda7-f59e-2253" targetId="db11-0ca0-0a9f-d522" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="4b2e-657d-b7a2-3698" targetId="default-category" primary="false"/>
+        <categoryLink name="Light" hidden="false" id="9e96-3811-38a1-df2f" targetId="cbc2-752c-59ff-dd62" primary="false"/>
+        <categoryLink name="Rifle Platoon" hidden="false" id="6a54-a153-1d35-50fc" targetId="896e-516a-a766-5897" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Ranged (Light)" hidden="false" id="1b96-58a8-c27a-3140" type="selectionEntry" targetId="6fae-269f-2190-7ad6" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9e3d-ad68-d9ed-5df8" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04eb-7653-bf33-b4d6" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Ranged (Aerial)" hidden="false" id="4c81-d187-a7ad-7839" type="selectionEntry" targetId="b2c6-5299-262d-ad2d" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b8ca-852b-388a-25a1" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b07-2573-8f21-190a" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Melee" hidden="false" id="c9d2-2fc7-6c2d-6cf7" type="selectionEntry" targetId="fcc7-77b0-cd60-1863" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4938-bc0d-88b7-ab33" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0bc9-0b5e-d23c-1e97" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b4d-908b-9953-8315" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3495-bb81-8fc8-ad5f" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Stoic Defence" id="19ef-8326-b192-2629" hidden="false" type="rule" targetId="9786-f309-089a-8459"/>
+        <infoLink name="Rifle Platoon" id="c7e4-5a31-d133-2cc9" hidden="false" type="profile" targetId="3505-d912-6df8-08e2">
+          <modifiers>
+            <modifier type="set" value="6" field="b001-8ebf-b7fe-74da">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c7cd-c469-c5fe-2f35" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="12" field="b001-8ebf-b7fe-74da">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="86c5-3a59-37ad-c67e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="18" field="b001-8ebf-b7fe-74da">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c9cc-1d79-9bb0-c9a0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2" field="4c54-804a-8993-7325">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c7cd-c469-c5fe-2f35" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="4c54-804a-8993-7325">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="86c5-3a59-37ad-c67e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="4" field="4c54-804a-8993-7325">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c9cc-1d79-9bb0-c9a0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sovereign Landship" hidden="false" id="861d-5d71-bc56-15df"/>
+    <selectionEntry type="model" import="true" name="Royal Engineers Sapper" hidden="false" id="1d30-c722-00cf-79c4">
+      <entryLinks>
+        <entryLink import="true" name="Ranged (Light)" hidden="false" id="bdc0-8e00-83fe-dfe8" type="selectionEntry" targetId="6fae-269f-2190-7ad6" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d3ba-d59e-d415-1bcd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f474-609c-e351-4888" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Melee" hidden="false" id="6abf-5e40-9b62-9784" type="selectionEntry" targetId="fcc7-77b0-cd60-1863" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="92da-9d20-affb-e812" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a95-3ee0-8566-085e" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dcc7-b1ab-c883-6b37" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b781-ae1c-76c8-f315" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Royal Engineer Sappers" id="0013-d86c-d149-8a83" hidden="false" type="profile" targetId="5b73-7e40-e82e-3f1d">
+          <modifiers>
+            <modifier type="set" value="4" field="b001-8ebf-b7fe-74da">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c7cd-c469-c5fe-2f35" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="8" field="b001-8ebf-b7fe-74da">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="86c5-3a59-37ad-c67e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="12" field="b001-8ebf-b7fe-74da">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c9cc-1d79-9bb0-c9a0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="4c54-804a-8993-7325">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c7cd-c469-c5fe-2f35" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="4" field="4c54-804a-8993-7325">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="86c5-3a59-37ad-c67e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="4c54-804a-8993-7325">
+              <conditions>
+                <condition type="instanceOf" value="0" field="selections" scope="ancestor" childId="c9cc-1d79-9bb0-c9a0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Occupy" id="8b19-728f-d0ae-df3d" hidden="false" type="rule" targetId="a1f8-5d8a-59d5-1d71"/>
+        <infoLink name="Storming Party" id="73c3-709e-57f5-11a6" hidden="false" type="rule" targetId="fc02-3ba6-9f7e-7c8a"/>
+        <infoLink name="Spotters" id="c692-23eb-7f93-edb3" hidden="false" type="rule" targetId="3f3c-c8b5-7c63-527e"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Engineer Sapper" hidden="false" id="d9fc-cf84-9c31-0691" targetId="8ea9-74e5-f458-8819" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Sharp Rifles" hidden="false" id="00a3-1047-daea-9989">
+      <entryLinks>
+        <entryLink import="true" name="Ranged (Light)" hidden="false" id="8c38-c3de-9942-dab4" type="selectionEntry" targetId="6fae-269f-2190-7ad6" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5228-8938-8ddf-bb7a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7860-3d49-5b18-35eb" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Melee" hidden="false" id="4717-970b-02de-8959" type="selectionEntry" targetId="fcc7-77b0-cd60-1863" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5e56-8159-01c4-3d65" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d863-0870-0005-2052" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1882-3119-47ce-84f9" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4531-fc15-4689-b77a" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Irregular" id="fdc4-094c-14bc-29d7" hidden="false" type="rule" targetId="1a0d-b1c7-d3a2-b597">
+          <modifiers>
+            <modifier type="set" value="Chain of Command (6&quot;)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Pioneers" id="f55c-f25c-bf2a-5300" hidden="false" type="rule" targetId="bcfc-cd99-99cc-ac5b">
+          <modifiers>
+            <modifier type="set" value="Chain of Command (6&quot;)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Vanguard (X)" id="c020-e68e-9ed5-d019" hidden="false" type="rule" targetId="6ed6-c6c5-519a-6879">
+          <modifiers>
+            <modifier type="set" value="Chain of Command (8&quot;)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shrouded" id="31be-321d-466c-e8af" hidden="false" type="rule" targetId="80d3-d3d1-5182-7a43">
+          <modifiers>
+            <modifier type="set" value="Chain of Command (6&quot;)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Stalkers" id="135c-0350-f469-59b4" hidden="false" type="rule" targetId="74da-98c5-00d7-87fa">
+          <modifiers>
+            <modifier type="set" value="Chain of Command (6&quot;)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Spitfire Rocketeers" hidden="false" id="8d88-4c7e-1f21-f0e9"/>
+    <selectionEntry type="unit" import="true" name="Black Watch Assault Dragoons" hidden="false" id="c067-2a58-286d-25dc"/>
+    <selectionEntry type="unit" import="true" name="Black Watch Heavy Dragoons" hidden="false" id="fc79-2aea-7179-46bb"/>
+    <selectionEntry type="upgrade" import="true" name="Horse Guard Cavalry" hidden="false" id="64f3-7bd4-b840-3d96"/>
+    <selectionEntry type="unit" import="true" name="Drake Field Guns" hidden="false" id="3fef-35a5-53da-568a"/>
+    <selectionEntry type="unit" import="true" name="Galahad Breacher" hidden="false" id="1146-9926-bdb5-ce7b"/>
+    <selectionEntry type="upgrade" import="true" name="Galahad Mail Battle Tank" hidden="false" id="5840-6ca5-b749-fdfb"/>
+    <selectionEntry type="upgrade" import="true" name="Glamis Mobile Gun" hidden="false" id="dffc-ba41-5dcd-64a7"/>
+    <selectionEntry type="upgrade" import="true" name="Monarch Landship" hidden="false" id="51d4-1aca-0a7a-04bf"/>
+    <selectionEntry type="upgrade" import="true" name="New Entry" hidden="false" id="547d-cc3b-1d76-fb9d"/>
+    <selectionEntry type="upgrade" import="true" name="Stirling Armoured Transport" hidden="false" id="80ac-d16e-e99f-29bd"/>
+    <selectionEntry type="unit" import="true" name="Bors Heavy Bombard" hidden="false" id="e93e-e106-5574-b0ad"/>
+    <selectionEntry type="upgrade" import="true" name="Mordred Heavy Artillery" hidden="false" id="b7be-0e00-9862-df1b">
+      <entryLinks>
+        <entryLink import="true" name="Ranged (Light)" hidden="false" id="fb3a-5f7e-824c-084d" type="selectionEntry" targetId="6fae-269f-2190-7ad6" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="659e-a931-0732-0669" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab91-65da-6d8d-8e81" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Ranged (Heavy)" hidden="false" id="5242-ad6f-e0e8-d99b" type="selectionEntry" targetId="7db5-f29e-e83a-e968" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb08-4e8b-c96e-f1c8" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edd7-22d1-fc2a-d3a5" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Melee" hidden="false" id="cde0-deef-c5db-a21f" type="selectionEntry" targetId="fcc7-77b0-cd60-1863" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="711d-db7b-5870-b091" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="409c-e6a6-9b7b-e18f" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="d381-782e-c488-2d4a" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Tristan Assault Transport" hidden="false" id="2b0a-242d-ac78-2f77"/>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Rules" id="af53-3026-04a3-4e11" targetId="e73b-0a05-5608-a2db"/>
+    <catalogueLink type="catalogue" name="Weapon" id="bf15-ac1a-5e6a-7755" targetId="081a-b24d-bad8-6b6c"/>
+  </catalogueLinks>
+  <categoryEntries>
+    <categoryEntry name="Defiance" id="a7fd-d970-a938-a5ae" hidden="false"/>
+    <categoryEntry name="Crown Commander" id="4481-ebbe-9dd5-89cf" hidden="false"/>
+    <categoryEntry name="Crown Infantry" id="8ed6-a1d8-1f9f-fdc1" hidden="false"/>
+    <categoryEntry name="Crown Cavalry" id="3183-fce6-8395-89d9" hidden="false"/>
+    <categoryEntry name="Crown Field Gun" id="e7a7-ece0-dbe2-bd16" hidden="false"/>
+    <categoryEntry name="Crown Armour" id="f631-c503-817c-fb04" hidden="false"/>
+    <categoryEntry name="Crown Artillery" id="7a27-89ec-581e-4d15" hidden="false"/>
+    <categoryEntry name="Crown Aircraft" id="ab7f-7a55-fd2a-373b" hidden="false"/>
+    <categoryEntry name="Rifle Platoon" id="896e-516a-a766-5897" hidden="false"/>
+    <categoryEntry name="Engineer Sapper" id="8ea9-74e5-f458-8819" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry name="Crown Faction Battlegrouop" id="4938-acc9-50cd-c482" hidden="false">
+      <constraints>
+        <constraint type="min" value="1" field="forces" scope="roster" shared="true" id="17a4-3a80-7e12-7efe"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Crown Commander" hidden="false" id="8500-fbab-7559-df98" targetId="4481-ebbe-9dd5-89cf">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="7d52-00b9-eddc-0863" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f560-309f-bd60-fe99" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Crown Infantry" hidden="false" id="25e1-6f25-44ce-d6ca" targetId="8ed6-a1d8-1f9f-fdc1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="6664-cc1e-0506-456f" includeChildSelections="true"/>
+            <constraint type="max" value="5" field="selections" scope="force" shared="true" id="5fce-826a-94ae-5dec" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Crown Cavalry" hidden="false" id="060a-c73e-c4f1-cda0" targetId="3183-fce6-8395-89d9">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="7c01-b242-6086-cb7a" includeChildSelections="true"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="026a-81ba-1cbe-13e3" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Field Gun" hidden="false" id="60f7-916b-ad24-1b2b" targetId="ec3a-3053-212e-1df4">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="be9f-8e2c-6d09-5091" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0d45-06c7-f0b1-c88e" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Crown Armour" hidden="false" id="799f-e6c0-ec09-7fff" targetId="f631-c503-817c-fb04">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="b265-8a48-eb23-196a" includeChildSelections="true"/>
+            <constraint type="max" value="4" field="selections" scope="force" shared="true" id="cc83-09e7-2646-593b" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Artillery" hidden="false" id="a511-779b-33fe-e7f4" targetId="ae99-e1b1-8ce1-7261">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="cfd8-322b-4f11-ccf3" includeChildSelections="true"/>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="6ab0-4bc7-921a-6744" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Crown Aircraft" hidden="false" id="ee23-6729-2cf0-c159" targetId="ab7f-7a55-fd2a-373b">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="59dc-5f9f-82bd-7bbe" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3ae1-0510-1dfb-430c" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Line-Breaker Auxiliary Battlegrouop" id="ca5a-ec76-5ca6-30ed" hidden="false">
+      <constraints>
+        <constraint type="min" value="0" field="forces" scope="roster" shared="true" id="b247-9a4f-adfb-18f7"/>
+      </constraints>
+    </forceEntry>
+    <forceEntry name="Support Auxiliary Battlegrouop" id="938c-3d19-d165-5cea" hidden="false">
+      <constraints>
+        <constraint type="min" value="0" field="forces" scope="roster" shared="true" id="746a-f181-d9e6-1388"/>
+      </constraints>
+    </forceEntry>
+    <forceEntry name="Crown Super-Heavy Auxiliary Battlegrouop" id="ebac-bdb2-c861-beb2" hidden="false">
+      <constraints>
+        <constraint type="min" value="0" field="forces" scope="roster" shared="true" id="58e1-8682-f74d-0de3"/>
+      </constraints>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry type="unit" import="false" name="Defiance Fighter Squadron (Basic)" hidden="false" id="9417-2c34-0972-63cf" sortIndex="1">
+      <entryLinks>
+        <entryLink import="true" name="Defiance Fighter" hidden="false" id="ce57-13ed-2cd0-be5c" type="selectionEntry" targetId="58e3-6887-5b17-fc2f" sortIndex="1"/>
+        <entryLink import="true" name="Bostering" hidden="false" id="8593-479f-b22e-97b1" type="selectionEntryGroup" targetId="1518-119b-2c34-8bad" sortIndex="2"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Crown Aircraft" hidden="false" id="296f-9265-8da8-3901" targetId="ab7f-7a55-fd2a-373b" primary="true"/>
+        <categoryLink name="Basic" hidden="false" id="46c5-f542-2f2d-8322" targetId="c7cd-c469-c5fe-2f35" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="54bf-ced7-7e46-256e" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0735-43cb-0bd5-a33c" includeChildSelections="false"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="81e6-4ec0-79de-569d" value="110"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Rifle Command Platoon" hidden="false" id="11ef-ea93-f9a6-b2f6" sortIndex="1">
+      <entryLinks>
+        <entryLink import="true" name="Rifle Command Platoon" hidden="false" id="ce3c-7982-1c8d-6278" type="selectionEntry" targetId="f289-16d9-e603-aeb4" sortIndex="2"/>
+        <entryLink import="true" name="Bostering" hidden="false" id="c45c-62e7-6d03-9503" type="selectionEntryGroup" targetId="1518-119b-2c34-8bad" sortIndex="1"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Crown Commander" hidden="false" id="9908-2f64-725c-3854" targetId="4481-ebbe-9dd5-89cf" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="1b9c-23b6-9b91-2485" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="af00-9f0f-b4fa-7343" includeChildSelections="false"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="81e6-4ec0-79de-569d" value="0"/>
+      </costs>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="75" field="81e6-4ec0-79de-569d">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="f088-e6d4-8fe3-0f3e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="130" field="81e6-4ec0-79de-569d">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="85c2-43ee-a668-834f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="195" field="81e6-4ec0-79de-569d">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="e86e-71e1-9396-5526" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" value="c7cd-c469-c5fe-2f35" field="category">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="f088-e6d4-8fe3-0f3e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" value="86c5-3a59-37ad-c67e" field="category">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="85c2-43ee-a668-834f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" value="c9cc-1d79-9bb0-c9a0" field="category">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="e86e-71e1-9396-5526" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Rifle Platoon" hidden="false" id="91dc-b96a-4e1d-03f8" sortIndex="1">
+      <entryLinks>
+        <entryLink import="true" name="Rifle Platoon" hidden="false" id="a407-bce6-0027-843a" type="selectionEntry" targetId="9c55-0999-b816-3d39" sortIndex="2"/>
+        <entryLink import="true" name="Bostering" hidden="false" id="0566-02d5-c6bc-eb8f" type="selectionEntryGroup" targetId="1518-119b-2c34-8bad" sortIndex="1"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Crown Infantry" hidden="false" id="06ca-bc28-b51b-6f81" targetId="8ed6-a1d8-1f9f-fdc1" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="12f8-56c9-399c-fef0" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d100-266c-a223-2652" includeChildSelections="false"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="81e6-4ec0-79de-569d" value="0"/>
+      </costs>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="35" field="81e6-4ec0-79de-569d">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="f088-e6d4-8fe3-0f3e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="60" field="81e6-4ec0-79de-569d">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="85c2-43ee-a668-834f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="90" field="81e6-4ec0-79de-569d">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="e86e-71e1-9396-5526" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" value="c7cd-c469-c5fe-2f35" field="category">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="f088-e6d4-8fe3-0f3e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" value="86c5-3a59-37ad-c67e" field="category">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="85c2-43ee-a668-834f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" value="c9cc-1d79-9bb0-c9a0" field="category">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="e86e-71e1-9396-5526" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Royal Engineers Sapper" hidden="false" id="b554-2146-7a02-328d" sortIndex="2">
+      <entryLinks>
+        <entryLink import="true" name="Royal Engineers Sapper" hidden="false" id="f331-22ff-bd8e-b0d9" type="selectionEntry" targetId="1d30-c722-00cf-79c4" sortIndex="2"/>
+        <entryLink import="true" name="Bostering" hidden="false" id="5104-1000-3334-de76" type="selectionEntryGroup" targetId="1518-119b-2c34-8bad" sortIndex="1"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Crown Infantry" hidden="false" id="c9dc-9adb-6e07-342d" targetId="8ed6-a1d8-1f9f-fdc1" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="4243-2b01-a22a-8367" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f71e-6cb5-0521-5c4c" includeChildSelections="false"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="81e6-4ec0-79de-569d" value="0"/>
+      </costs>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="45" field="81e6-4ec0-79de-569d">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="f088-e6d4-8fe3-0f3e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="75" field="81e6-4ec0-79de-569d">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="85c2-43ee-a668-834f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="115" field="81e6-4ec0-79de-569d">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="e86e-71e1-9396-5526" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" value="c7cd-c469-c5fe-2f35" field="category">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="f088-e6d4-8fe3-0f3e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" value="86c5-3a59-37ad-c67e" field="category">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="85c2-43ee-a668-834f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" value="c9cc-1d79-9bb0-c9a0" field="category">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="e86e-71e1-9396-5526" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Sharp Rifles" hidden="false" id="14ff-7a01-fa49-f1da" sortIndex="2">
+      <entryLinks>
+        <entryLink import="true" name="Sharp Rifles" hidden="false" id="ae6c-a656-0c40-ec47" type="selectionEntry" targetId="00a3-1047-daea-9989" sortIndex="2"/>
+        <entryLink import="true" name="Bostering" hidden="false" id="8522-31df-289c-54b9" type="selectionEntryGroup" targetId="1518-119b-2c34-8bad" sortIndex="1"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Crown Infantry" hidden="false" id="9996-9a3e-2beb-1351" targetId="8ed6-a1d8-1f9f-fdc1" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="c8b1-512e-2b50-f543" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="89fb-2064-1386-1b56" includeChildSelections="false"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="81e6-4ec0-79de-569d" value="0"/>
+      </costs>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="55" field="81e6-4ec0-79de-569d">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="f088-e6d4-8fe3-0f3e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="95" field="81e6-4ec0-79de-569d">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="85c2-43ee-a668-834f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="145" field="81e6-4ec0-79de-569d">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="e86e-71e1-9396-5526" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" value="c7cd-c469-c5fe-2f35" field="category">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="f088-e6d4-8fe3-0f3e" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" value="86c5-3a59-37ad-c67e" field="category">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="85c2-43ee-a668-834f" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" value="c9cc-1d79-9bb0-c9a0" field="category">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="e86e-71e1-9396-5526" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Bostering" id="1518-119b-2c34-8bad" hidden="false" defaultSelectionEntryId="f088-e6d4-8fe3-0f3e">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Basic" hidden="false" id="f088-e6d4-8fe3-0f3e" sortIndex="1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f055-960b-00a0-6c19" includeChildSelections="false"/>
+          </constraints>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="append" value="(75)" field="name" join=" ">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="11ef-ea93-f9a6-b2f6" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" value="(35)" field="name" join=" ">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="91dc-b96a-4e1d-03f8" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" value="(45)" field="name" join=" ">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b554-2146-7a02-328d" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Reinforced" hidden="false" id="85c2-43ee-a668-834f" sortIndex="2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67b4-3814-fd8a-aa64" includeChildSelections="false"/>
+          </constraints>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="append" value="(130)" field="name" join=" ">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="11ef-ea93-f9a6-b2f6" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" value="(60)" field="name" join=" ">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="91dc-b96a-4e1d-03f8" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" value="(75)" field="name" join=" ">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b554-2146-7a02-328d" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Full Srenght" hidden="false" id="e86e-71e1-9396-5526" sortIndex="3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c7b-c4c6-888b-0884" includeChildSelections="false"/>
+          </constraints>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="append" value="(195)" field="name" join=" ">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="11ef-ea93-f9a6-b2f6" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" value="(90)" field="name" join=" ">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="91dc-b96a-4e1d-03f8" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="append" value="(115)" field="name" join=" ">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b554-2146-7a02-328d" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e890-251c-95af-391f" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8e5-541b-183b-45c5" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

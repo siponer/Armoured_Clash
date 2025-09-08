@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="081a-b24d-bad8-6b6c" name="Weapon" gameSystemId="sys-4122-429d-f7fe-52dd" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Ranged (Light)" typeId="9fda-534e-ab92-f064" typeName="Unit Weapon" hidden="false" id="b4fc-db01-b7f1-9fdb" publicationId="0403-13ce-e1af-cd59">
+      <characteristics>
+        <characteristic name="Range" typeId="5597-f2b6-f618-e2fb"/>
+        <characteristic name="Models: " typeId="ffb3-c0f3-518d-9caa"/>
+        <characteristic name="Models: " typeId="1d1e-80ad-3488-6c0c"/>
+        <characteristic name="Models: " typeId="cec6-5ceb-6785-59c9"/>
+        <characteristic name="Qualities" typeId="af6e-1a4c-9abd-927f"/>
+      </characteristics>
+    </profile>
+    <profile name="Melee" typeId="9fda-534e-ab92-f064" typeName="Unit Weapon" hidden="false" id="5072-aed0-1617-b1a9">
+      <characteristics>
+        <characteristic name="Range" typeId="5597-f2b6-f618-e2fb">-</characteristic>
+        <characteristic name="Models: " typeId="ffb3-c0f3-518d-9caa"/>
+        <characteristic name="Models: " typeId="1d1e-80ad-3488-6c0c"/>
+        <characteristic name="Models: " typeId="cec6-5ceb-6785-59c9"/>
+        <characteristic name="Qualities" typeId="af6e-1a4c-9abd-927f"/>
+      </characteristics>
+    </profile>
+    <profile name="Ranged (Aerial)" typeId="9fda-534e-ab92-f064" typeName="Unit Weapon" hidden="false" id="8991-ac83-808c-61de" publicationId="0403-13ce-e1af-cd59">
+      <characteristics>
+        <characteristic name="Range" typeId="5597-f2b6-f618-e2fb"/>
+        <characteristic name="Models: " typeId="ffb3-c0f3-518d-9caa"/>
+        <characteristic name="Models: " typeId="1d1e-80ad-3488-6c0c"/>
+        <characteristic name="Models: " typeId="cec6-5ceb-6785-59c9"/>
+        <characteristic name="Qualities" typeId="af6e-1a4c-9abd-927f"/>
+      </characteristics>
+    </profile>
+    <profile name="Ranged (Heavy)" typeId="9fda-534e-ab92-f064" typeName="Unit Weapon" hidden="false" id="5f30-c6ce-0acf-a039" publicationId="0403-13ce-e1af-cd59">
+      <characteristics>
+        <characteristic name="Range" typeId="5597-f2b6-f618-e2fb"/>
+        <characteristic name="Models: " typeId="ffb3-c0f3-518d-9caa"/>
+        <characteristic name="Models: " typeId="1d1e-80ad-3488-6c0c"/>
+        <characteristic name="Models: " typeId="cec6-5ceb-6785-59c9"/>
+        <characteristic name="Qualities" typeId="af6e-1a4c-9abd-927f"/>
+      </characteristics>
+    </profile>
+    <profile name="Ranged (Light/Heavy)" typeId="9fda-534e-ab92-f064" typeName="Unit Weapon" hidden="false" id="bc8d-e19e-6c4b-72c6" publicationId="0403-13ce-e1af-cd59">
+      <characteristics>
+        <characteristic name="Range" typeId="5597-f2b6-f618-e2fb">4&quot;/10&quot;</characteristic>
+        <characteristic name="Models: " typeId="ffb3-c0f3-518d-9caa">5</characteristic>
+        <characteristic name="Models: " typeId="1d1e-80ad-3488-6c0c">8</characteristic>
+        <characteristic name="Models: " typeId="cec6-5ceb-6785-59c9">11</characteristic>
+        <characteristic name="Qualities" typeId="af6e-1a4c-9abd-927f">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Impact" typeId="9fda-534e-ab92-f064" typeName="Unit Weapon" hidden="false" id="59af-a208-f541-2f73">
+      <characteristics>
+        <characteristic name="Range" typeId="5597-f2b6-f618-e2fb"/>
+        <characteristic name="Models: " typeId="ffb3-c0f3-518d-9caa"/>
+        <characteristic name="Models: " typeId="1d1e-80ad-3488-6c0c"/>
+        <characteristic name="Models: " typeId="cec6-5ceb-6785-59c9"/>
+        <characteristic name="Qualities" typeId="af6e-1a4c-9abd-927f"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedRules>
+    <rule name="Turret" id="176d-0eb5-b9ad-ee9d" hidden="false">
+      <description>When checking Target Acquisition for this attack, the attacking unit can confirm Visibility on an enemy unit which is outside its Officer’s Front Arc. If the target is outside the Officer’s Front Arc, an additional Combat Rating Penalty applies to the attack.</description>
+    </rule>
+    <rule name="Devastating" id="3769-dd1f-3cc2-f7c4" hidden="false">
+      <description>In the Apply Damage step of resolving this attack, if
+any excess Hits are discarded, the target unit suffers one
+additional point of Damage.</description>
+    </rule>
+    <rule name="Indirect" id="bc43-bf9f-ea18-405d" hidden="false">
+      <description>This attack cannot target units that are within its Short
+Range.
+When checking Target Acquisition, the attacking unit
+does not need to confirm Visibility on the target unit, as
+long as at least one friendly unit can do so. The target must
+still be in the Front Arc of the attacking unit’s Offifficer.
+If the attacking unit cannot confirm Visibility, the attack
+is Weakened regardless of any Combat Rating Bonuses or
+Penalties that apply.</description>
+    </rule>
+    <rule name="Siegebreaker" id="2ae5-eb7d-eb62-84b1" hidden="false">
+      <description>If this attack targets a unit that is Garrisoning a Defensible
+Building, roll an Attack Die after the attack has been
+resolved. If the die scores a Strike or Heroic Strike, place
+a Wrecked status token on the building - it can no longer
+be Garrisoned by units that do not have the Occupy special
+rule, and is treated as Blocking Terrain for the rest of the
+game. If there is still a unit Garrisoning the building, it
+must make an immediate Exit manoeuvre.</description>
+    </rule>
+    <rule name="Precision" id="7423-e95c-c831-c437" hidden="false">
+      <description>If this attack causes a model to be Destroyed, the
+attacking General may choose which model is removed
+from the target unit. If multiple models are Destroyed,
+the attacking General chooses another model in the target
+unit, and so on. The attacking unit’s Offifficer must be able
+to confirm Target Acquisition on each chosen model.
+If Target Acquisition cannot be confirmed, the usual rules
+for Destroying models apply.
+If the target unit fights in Close Formation, models must
+still be removed from the rear rank; however, this rule
+allows the Officer to be targeted, as described in Loss of an
+Offifficer on page 35 of the Armoured Clash Rulebook.</description>
+    </rule>
+    <rule name="Shock" id="d2e4-b183-c56b-b8d8" hidden="false">
+      <description>The Attack Dice values for this attack have a second value,
+shown in parentheses. This second value is used if the
+target unit has the Light Target Category.</description>
+    </rule>
+    <rule name="Point Blank" id="30ff-15b2-cb63-6f6b" hidden="false">
+      <description>The Attack Dice values for this attack have a second value,
+shown in parentheses. This second value is used if the
+target unit is within Short Range.</description>
+    </rule>
+    <rule name="Slow to Fire" id="9c2f-d834-b7a1-f4d2" hidden="false">
+      <description>After this attack has been resolved, the attacking unit
+gains the Reloading status. While this unit has the
+Reloading status, this attack cannot be used.
+In addition, this attack cannot be used to make Opportunity
+Fire.</description>
+    </rule>
+    <rule name="Wreckers" id="8de9-0995-18e6-36da" hidden="false">
+      <description>The Attack Dice values for this attack have a second value,
+shown in parentheses. This second value is used if the
+target unit has the Heavy Target Category.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Ranged (Aerial)" hidden="false" id="b2c6-5299-262d-ad2d">
+      <infoLinks>
+        <infoLink name="Ranged (Aerial)" id="79fc-60d4-758e-922f" hidden="false" type="profile" targetId="8991-ac83-808c-61de">
+          <modifiers>
+            <modifier type="set" value="7”/14”" field="5597-f2b6-f618-e2fb">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1-6 (1)" field="ffb3-c0f3-518d-9caa">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="7-12 (12)" field="1d1e-80ad-3488-6c0c">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="13-18 (18)" field="cec6-5ceb-6785-59c9">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="-" field="af6e-1a4c-9abd-927f">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ranged (Light / Heavy)" hidden="false" id="5075-8de3-b31c-23e7">
+      <infoLinks>
+        <infoLink name="Ranged (Light/Heavy)" id="5819-5d43-e3d7-0627" hidden="false" type="profile" targetId="bc8d-e19e-6c4b-72c6">
+          <modifiers>
+            <modifier type="set" field="5597-f2b6-f618-e2fb"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ranged (Heavy)" hidden="false" id="7db5-f29e-e83a-e968">
+      <infoLinks>
+        <infoLink name="Ranged (Heavy)" id="0bed-ca69-0428-73b7" hidden="false" type="profile" targetId="5f30-c6ce-0acf-a039">
+          <modifiers>
+            <modifier type="set" value="4”/10”" field="5597-f2b6-f618-e2fb">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7fd-d970-a938-a5ae" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1 (5)" field="ffb3-c0f3-518d-9caa">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7fd-d970-a938-a5ae" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2 (8)" field="1d1e-80ad-3488-6c0c">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7fd-d970-a938-a5ae" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3 (11)" field="cec6-5ceb-6785-59c9">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7fd-d970-a938-a5ae" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="-" field="af6e-1a4c-9abd-927f">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a7fd-d970-a938-a5ae" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Melee" hidden="false" id="fcc7-77b0-cd60-1863">
+      <infoLinks>
+        <infoLink name="Melee" id="2b63-b37c-1873-c335" hidden="false" type="profile" targetId="5072-aed0-1617-b1a9">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="1-6 (3)" field="ffb3-c0f3-518d-9caa">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="1-6 (3-[8])" field="ffb3-c0f3-518d-9caa">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8ea9-74e5-f458-8819" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="1-4 (3)" field="ffb3-c0f3-518d-9caa">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="00a3-1047-daea-9989" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="7-12 (6)" field="1d1e-80ad-3488-6c0c">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="5-8 (6-[12])" field="1d1e-80ad-3488-6c0c">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8ea9-74e5-f458-8819" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="5-8 (6)" field="1d1e-80ad-3488-6c0c">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="00a3-1047-daea-9989" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="13-18 (9)" field="cec6-5ceb-6785-59c9">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="9-12 (9-[16])" field="cec6-5ceb-6785-59c9">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8ea9-74e5-f458-8819" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="9-12 (9)" field="cec6-5ceb-6785-59c9">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="00a3-1047-daea-9989" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="-" field="af6e-1a4c-9abd-927f">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="00a3-1047-daea-9989" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="Wreckers" field="af6e-1a4c-9abd-927f">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8ea9-74e5-f458-8819" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ranged (Light)" hidden="false" id="6fae-269f-2190-7ad6">
+      <infoLinks>
+        <infoLink name="Ranged (Light)" id="b5ea-5d9d-b4c7-596e" hidden="false" type="profile" targetId="b4fc-db01-b7f1-9fdb">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="7”/14”" field="5597-f2b6-f618-e2fb">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8ea9-74e5-f458-8819" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="12”/32”" field="5597-f2b6-f618-e2fb">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="00a3-1047-daea-9989" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <comment>Modify range</comment>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="1-6 (5)" field="ffb3-c0f3-518d-9caa">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="1-4 (3)" field="ffb3-c0f3-518d-9caa">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8ea9-74e5-f458-8819" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="1-4 (5)" field="ffb3-c0f3-518d-9caa">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="00a3-1047-daea-9989" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <comment>Modify low bases</comment>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="7-12 (12)" field="1d1e-80ad-3488-6c0c">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="5-8 (7)" field="1d1e-80ad-3488-6c0c">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8ea9-74e5-f458-8819" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="5-8 (6)" field="1d1e-80ad-3488-6c0c">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="00a3-1047-daea-9989" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <comment>Modify medium bases</comment>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="13-18 (18)" field="cec6-5ceb-6785-59c9">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="9-12 (13)" field="cec6-5ceb-6785-59c9">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="9-12 (11)" field="cec6-5ceb-6785-59c9">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="00a3-1047-daea-9989" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <comment>Modify High bases</comment>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="-" field="af6e-1a4c-9abd-927f">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="896e-516a-a766-5897" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8ea9-74e5-f458-8819" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="Precision" field="af6e-1a4c-9abd-927f">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="00a3-1047-daea-9989" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <comment>Modify Quality</comment>
+            </modifierGroup>
+          </modifierGroups>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
