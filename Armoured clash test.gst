@@ -38,6 +38,9 @@
     <categoryEntry name="Battlegroup, Aux1" id="5df6-88b7-991f-ec9f" hidden="false"/>
     <categoryEntry name="Battlegroup, Aux2" id="8c94-5dcf-d9b3-05d6" hidden="false"/>
     <categoryEntry name="Rotorcraft" id="48db-6837-f5b1-49e2" hidden="false"/>
+    <categoryEntry name="Rotorcraft" id="7631-aeb2-96eb-cddd" hidden="false">
+      <comment>For Commanders, again...</comment>
+    </categoryEntry>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Default Root Entry" hidden="false" id="default-entry">
@@ -277,6 +280,16 @@
         <characteristicType name="Qualities" id="ea86-3bb1-4fea-6f13"/>
       </characteristicTypes>
       <comment>weapons 8-24</comment>
+    </profileType>
+    <profileType name="Type" id="e5cb-a327-9927-e1c2" hidden="false" sortIndex="8">
+      <characteristicTypes>
+        <characteristicType name="Range" id="441f-d21a-ef2b-2c8a"/>
+        <characteristicType name="7-8" id="695f-299c-7e58-f275"/>
+        <characteristicType name="4-6" id="e27c-135a-2199-2587"/>
+        <characteristicType name="0-3" id="7a70-c3bd-de13-ddd6"/>
+        <characteristicType name="Qualities" id="e2c3-64fe-0b86-9ca8"/>
+      </characteristicTypes>
+      <comment>weapons Behemoth 0-8</comment>
     </profileType>
   </profileTypes>
   <sharedSelectionEntries>
